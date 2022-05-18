@@ -1,6 +1,6 @@
 import './styles.css'
-
-import Header from './components/header/Header'
+import Header from './components/Header'
+import MyForm from './components/MyForm'
 
 
 function App() {
@@ -8,6 +8,34 @@ function App() {
     <>
       <div className="container">
         <Header />
+        <div className="pageFlow">
+
+          {/* Intro */}
+          <div className="introBox">
+            <hr className="line"/>
+
+            <div className="introContent">
+              <p className="textGreen">Greetings! My name is</p>
+              <h1 className="chadley">Chadley.</h1>
+              <p className="chadleyDescription">I am an intelligent machine designed to fufull your needs.</p>
+              
+            </div>
+
+            <hr className="line"/>
+          </div>
+
+          <MyForm />
+
+
+
+
+
+        </div>
+
+
+
+
+
       </div>
     </>
   );
