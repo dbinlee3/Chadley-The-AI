@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    height: 200vh;
+    width: 100%;
+    background-color: #02203C;
+    font-family: 'Inconsolata', monospace;
+
+}
