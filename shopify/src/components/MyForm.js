@@ -37,7 +37,7 @@ function MyForm() {
 
         ////////OPENAI
         const configuration = new Configuration({
-            apiKey: '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',
+            apiKey: process.env.OPENAI_API_KEY,
         });
         const openai = new OpenAIApi(configuration);
 
