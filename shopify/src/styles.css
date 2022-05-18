@@ -1,0 +1,123 @@
+
+
+body {
+    margin: 0px;
+    font-family: 'Iceland', cursive;
+    font-weight: 100;
+}
+
+
+
+.container {
+    height: 200vh;
+    width: 100%;
+    background-color: #02203C;
+    object-fit: cover;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain; 
+
+}
+
+.headerWrapper {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 15px;
+}
+
+.headerContext {
+    color: #6A6A6A;
+    display: inline-block;
+}
+
+.headerText {
+    display: inline-block;
+}
+
+.benLogo {
+    text-decoration: none;
+    color: #3CD0AD;
+    transition-property: all;
+    transition-duration: 200ms;
+}
+
+.benLogo:hover {
+    color: white;
+    transition: all 0.2s ease-out;
+}
+
+.headerLogos {
+    position: absolute;
+    right: 15px;
+}
+
+.logo {
+    padding: 10px;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.pageFlow {
+    width: 800px;
+
+}
+
+.introBox {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.line {
+    border: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color:#6A6A6A;
+}
+
+.introContent {
+    padding: 30px;
+}
+
+.textGreen {
+    color: #3CD0AD;
+    margin: 0;
+    font-size: 22px;
+}
+
+.chadley {
+    margin: 20px;
+    color: white;
+    font-size: 70px;
+}
+
+.chadleyDescription {
+    color: rgb(165, 165, 165);
+    font-size: 30px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+
+    .headerText {
+        display: none;
+    }
+
+    .headerWrapper {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+
+}
