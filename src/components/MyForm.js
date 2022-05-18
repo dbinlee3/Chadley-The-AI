@@ -36,9 +36,11 @@ function MyForm() {
         const submittedPrompt = prompt.current.value
 
         ////////OPENAI
+        //process.env.OPENAI_API_KEY
         const configuration = new Configuration({
-            apiKey: process.env.OPENAI_API_KEY,
+            apiKey: process.env.REACT_APP_OPENAI_API_KEY,
         });
+
         const openai = new OpenAIApi(configuration);
 
         openai.createCompletion("text-curie-001", {

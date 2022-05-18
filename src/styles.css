@@ -296,4 +296,14 @@ form {
     .responseBox {
         width: 75%;
     }
+
+    .formButton {
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .formButtonGrid {
+        grid-gap: 35px;
+    }
 }
