@@ -1,8 +1,11 @@
+import './styles.css'
+
 
 function App() {
   return (
     <>
-      Hello World
+      <div className="container">
+      </div>
     </>
   );
 }
