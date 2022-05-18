@@ -1,25 +1,28 @@
 import React from 'react'
 import '../styles.css'
 
+/*
+/ The Response component is a box which contains the User's
+/ inputted prompt, as well as the response from the API.
+*/
 export default function Response( {response} ) {
     return (
-        <div className="responseBox">
-            <div className="responseContent">
-                <label className="responseContent">
+        <>
+            <div className="responseBox">
+                <section className="responseWrapper">
 
-                    <div className="promptContent">
+                    <label className="promptContent">
                         <p className="responseField">Prompt:</p> 
                         <p className="responseText">{response.prompt} </p>
-                    </div>
+                    </label>
 
-                    <div className="chadleyContent">
+                    <label className="chadleyContent">
                         <p className="responseField">Chadley:</p> 
                         <p className="chadleyText">{response.responseAI}</p>
-                    </div>
+                    </label>
 
-                </label>
-                
-            </div>
-        </div>
+                </section> {/* End of responseContent */}
+            </div> {/* End of responseBox */}
+        </>
     )
 }
