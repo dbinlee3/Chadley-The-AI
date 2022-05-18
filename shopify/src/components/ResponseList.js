@@ -1,11 +1,10 @@
 import React from 'react'
+import Response from './Response'
 
-function ResponseList() {
+export default function ResponseList({ responses }) {
     return (
-        <div>
-            I am the Response List.
-        </div>
+        responses.map(response => {
+            return <Response key={response.id} response={response} />
+        })
     )
 }
-
-export default ResponseList

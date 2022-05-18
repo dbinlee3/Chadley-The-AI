@@ -12,7 +12,7 @@ function App() {
 
           {/* Intro */}
           <div className="introBox">
-            <hr className="line"/>
+            <hr className="line top"/>
 
             <div className="introContent">
               <p className="textGreen">Greetings! My name is</p>
@@ -21,7 +21,7 @@ function App() {
               
             </div>
 
-            <hr className="line"/>
+            <hr className="line bottom"/>
           </div>
 
           <MyForm />
