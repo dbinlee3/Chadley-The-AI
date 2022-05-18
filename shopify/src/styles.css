@@ -1,17 +1,12 @@
-
-
 body {
     margin: 0px;
     font-family: 'Iceland', cursive;
-    font-weight: 100;
 }
 
-
-
 .container {
-    height: 200vh;
+    height: auto;
     width: 100%;
-    background-color: #02203C;
+    background-color: rgb(4, 25, 52);
     object-fit: cover;
     z-index: -1;
     display: flex;
@@ -61,16 +56,25 @@ body {
     width: 37px;
     height: 37px;
     cursor: pointer;
+    transition-property: all;
+    transition-duration: 200ms;
+}
+
+.logo:hover {
+    position: relative;
+    margin-top: 6px;
+    transition: all 0.2s ease-out;
 }
 
 .pageFlow {
     width: 800px;
+    margin-bottom: 100px;
 
 }
 
 .introBox {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .line {
@@ -80,6 +84,32 @@ body {
     margin-right: auto;
     height: 1px;
     background-color:#6A6A6A;
+}
+
+.top {
+    animation: 850ms ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-60%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+.bottom {
+    animation: 1.4s ease-out 0s 1 slideInFromRight;
+}
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(60%);
+    }
+    100% {
+      transform: translateX(0);
+    }
 }
 
 .introContent {
@@ -96,6 +126,16 @@ body {
     margin: 20px;
     color: white;
     font-size: 70px;
+    animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+    0% {
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
 }
 
 .chadleyDescription {
@@ -103,6 +143,120 @@ body {
     font-size: 30px;
     width: 450px;
     margin: 0 auto;
+}
+
+.wrapper {
+    text-align: center;
+    margin-top: 45px;
+}
+
+form {
+    padding: 15px;
+}
+
+.textBox {
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    background-color: rgb(4, 25, 52);
+    color: rgb(165, 165, 165);
+    outline: none;
+    font-family: 'Iceland', cursive;
+    font-weight: 100;
+    font-size: 22px;
+    margin-top: 0;
+    transition-property: all;
+    transition-duration: 200ms;
+}
+
+.textBox:hover {
+    border: 1px solid white;
+    transition: all 0.2s ease-out;
+}
+
+.formButtonGrid {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-gap: 100px;
+    justify-content: center;
+}
+
+.formButton {
+    width: 112px;
+    height: 40px;
+    background-color: rgb(4, 25, 52);
+    border: 1px solid #3CD0AD;
+    color: #3CD0AD;
+    font-family: 'Iceland', cursive;
+    font-size: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 200ms;
+}
+
+.formButton:hover {
+    border: 1px solid white;
+    color: white;
+    transition: all 0.2s ease-out;
+}
+
+.responseBox {
+    margin: auto;
+    width: 400px;
+    height: auto;
+    background-color: rgb(8, 35, 77);
+    border-radius: 8px;
+    margin-top: 20px;
+    animation: 1.4s ease-out 0s 1 slideInFromRight;
+}
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+/* @keyframes fadein {
+    0% {
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+} */
+
+.responseContent {
+    text-align: left;
+    padding: 2px 20px;
+    font-size: 20px;
+}
+
+.promptContent {
+    margin-bottom: 30px;
+}
+
+.responseField {
+    margin: 0;
+    color: rgb(218, 218, 218);
+}
+
+.responseText {
+    margin: 0;
+    color: rgb(142, 142, 142);
+}
+
+.chadleyText {
+    margin: 0;
+    color: #3CD0AD;
 }
 
 @media screen and (max-width: 960px) {
@@ -119,5 +273,27 @@ body {
         padding: 15px;
     }
 
+    .pageFlow {
+        width: 88%;
+    }
 
+    .chadley {
+        font-size: 50px;
+    }
+    
+    .chadleyDescription {
+        font-size: 20px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .textBox {
+        width: 70%;
+    }
+
+    .responseBox {
+        width: 75%;
+    }
 }
