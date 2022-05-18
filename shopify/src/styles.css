@@ -1,6 +1,14 @@
+/*
+/ Because this was not a large-scale project, I have kept all
+/ the styling in one file from order of top of the application
+/ to the bottom of the application.
+*/
+
 body {
     margin: 0px;
     font-family: 'Iceland', cursive;
+    height: 100vh;
+    background-color: rgb(4, 25, 52);
 }
 
 .container {
@@ -225,19 +233,16 @@ form {
     }
 }
 
-/* @keyframes fadein {
-    0% {
-    opacity:0;
-    }
-    100% {
-    opacity:1;
-    }
-} */
+.responseWrapper {
+    text-align: left;
+    padding: 20px 30px;
+    font-size: 20px;
+    display: grid;
+    grid-auto-flow: row;
+}
 
 .responseContent {
-    text-align: left;
-    padding: 2px 20px;
-    font-size: 20px;
+    padding: 10px;
 }
 
 .promptContent {
