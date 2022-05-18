@@ -34,7 +34,7 @@ function Header() {
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <img className="logo" src={githubLogo} alt="" />
+                    <img className="logo github" src={githubLogo} alt="" />
                 </a>
 
                 <a 
@@ -42,7 +42,7 @@ function Header() {
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <img className="logo" src={linkedInLogo} alt="" />
+                    <img className="logo linkedin" src={linkedInLogo} alt="" />
                 </a>
             </div>
             
