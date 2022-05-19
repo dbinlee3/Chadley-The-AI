@@ -1,5 +1,6 @@
 {
   "name": "shopify",
+  "homepage": "http://chadley-the-ai.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
