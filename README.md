@@ -1,9 +1,13 @@
 # Shopify-Front-End-Developer-Intern-Challenge
 This is the Front-end Developer Internship Challenge for Shopify.
+<br/>
+<br/>
 
 ## Link to Live Project: http://chadley-the-ai.com
 
 This project utilizes the **GPT-3 API** from [OpenAI](https://beta.openai.com/). It is an intelligent AI that answers a user-inputed prompt.
+<br/>
+<br/>
 
 ## Current features are:
 
@@ -14,7 +18,8 @@ This project utilizes the **GPT-3 API** from [OpenAI](https://beta.openai.com/).
   -Users are also able to **clear their current list of responses** to clean up the page
   
   -A **fully responsive web layout**, serving desktop and mobile devices
-  
+ <br/>
+ <br/>
 ## Skills and Tools used:
 
   -This project has been created within the **React.js** framework
@@ -24,5 +29,7 @@ This project utilizes the **GPT-3 API** from [OpenAI](https://beta.openai.com/).
   -High level Javascript concepts has been covered such as **object destructuring and array mapping**
   
   -With a deep understanding of CSS, a clean and responsive layout has been achieved without a third-party CSS library.
+  <br/>
+  <br/>
   
  Enjoy!
