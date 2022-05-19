@@ -311,4 +311,14 @@ form {
     .formButtonGrid {
         grid-gap: 35px;
     }
+
+    .headerLogos {
+        right: 12px;
+    }
+    
+    .logo {
+        padding: 7px;
+        width: 24px;
+        height: 24px;
+    }
 }
