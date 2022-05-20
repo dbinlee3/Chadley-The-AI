@@ -20,7 +20,7 @@ function App() {
             <label className="introContent">
               <p className="textGreen">Greetings! My name is</p>
               <h1 className="chadley">Chadley.</h1>
-              <p className="chadleyDescription">I am an intelligent machine designed to fufull your needs.</p>
+              <p className="chadleyDescription">I am an intelligent machine designed to fufill your needs.</p>
             </label>
 
             <hr className="line bottom"/>
