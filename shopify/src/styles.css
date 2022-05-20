@@ -69,8 +69,7 @@ body {
 }
 
 .logo:hover {
-    position: relative;
-    margin-top: 6px;
+    opacity: 0.3;
     transition: all 0.2s ease-out;
 }
 
