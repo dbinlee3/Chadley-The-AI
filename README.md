@@ -1,6 +1,4 @@
-# Shopify-Front-End-Developer-Intern-Challenge
-This is the Front-end Developer Internship Challenge for Shopify.
-<br/>
+# Chadley The AI
 <br/>
 
 ## Link to Live Project: http://chadley-the-ai.com
